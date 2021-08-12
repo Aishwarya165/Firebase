@@ -1,2 +1,2 @@
 # Firebase
-Save and display Employee information using Firebase Console
+Save and display Employee information using Firebase Console.
