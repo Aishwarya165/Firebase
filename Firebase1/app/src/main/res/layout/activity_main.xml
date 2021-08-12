@@ -57,7 +57,7 @@
         android:layout_marginTop="16dp"
         android:textColor="@android:color/white"
         android:layout_margin="12dp"
-        android:text="Signin"/>
+        android:text="sign in"/>
 
     <Button
         android:id="@+id/btnsignup"
@@ -65,7 +65,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="12dp"
-        android:text="signup"
+        android:text="sign up"
         android:textColor="@android:color/white" />
 
     <Button
