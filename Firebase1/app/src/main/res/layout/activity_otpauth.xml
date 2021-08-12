@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/images"
+    android:layout_height="match_parent"
+    tools:context=".otpauth">
+
+    <EditText
+        android:id="@+id/phno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="17dp"
+        android:layout_margin="10dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:hint="Enter your phone"
+        android:importantForAutofill="no"
+        android:inputType="phone" />
+
+
+    <Button
+        android:id="@+id/btngetotp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="17dp"
+        android:text="Get OTP"
+        android:textAllCaps="false" />
+
+    <EditText
+        android:id="@+id/otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter OTP"
+        android:textSize="17dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:importantForAutofill="no"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btnver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="17dp"
+        android:text="Verify OTP"
+        android:textAllCaps="false" />
+
+</LinearLayout>
