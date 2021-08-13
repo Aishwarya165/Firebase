@@ -1,5 +1,5 @@
 # Firebase
-Save and Display Employee Information using Firebase Console.Sign Up and Sign In using Email or Mobile Number(Get and Verify Otp).
+To Save and Display Employee Information using Firebase Console . User can Sign Up and Sign In using Email or  Mobile Number by Verifying OTP.
 
 ![image](https://user-images.githubusercontent.com/66171389/129168244-26c8c6b2-a45e-4c88-933a-3c81ec2c0f3a.png)
 
